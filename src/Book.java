@@ -86,5 +86,16 @@ public class Book{
         return this.getNumber()*this.getPrice();
     }
 
-
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookCode='" + bookCode + '\'' +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", number=" + number +
+                ", author='" + author + '\'' +
+                ", language='" + language + '\'' +
+                ", framework='" + framework + '\'' +
+                '}';
+    }
 }
